@@ -37,6 +37,7 @@ class DVC: UIViewController {
         trans.text = translation
         }
 
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }

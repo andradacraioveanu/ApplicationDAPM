@@ -201,7 +201,6 @@ class TVC: UITableViewController, UITableViewDelegate, UITableViewDataSource {
     override func viewDidLoad() {
         self.tableView.dataSource = self
         self.tableView.delegate = self
-        
     }
     
     override func viewDidAppear(animated: Bool) {

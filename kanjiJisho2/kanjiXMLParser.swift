@@ -24,7 +24,6 @@ class kanjiXMLParser: NSObject, NSXMLParserDelegate {
     var on = NSMutableString()
     
     
-    
     func initWithURL(url :NSURL) -> AnyObject {
         beginParsing(url)
         return self

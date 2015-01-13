@@ -24,6 +24,7 @@ class xmlParser: NSObject, NSXMLParserDelegate {
         return self
     }
     
+    
     func beginParsing(xmlUrl :NSURL) {
         posts = []
         parser = NSXMLParser(contentsOfURL: xmlUrl)!
