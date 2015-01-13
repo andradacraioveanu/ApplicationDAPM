@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F70ED1681A347F8200E2AB69 /* new1.xml in Resources */ = {isa = PBXBuildFile; fileRef = F70ED1671A347F8200E2AB69 /* new1.xml */; };
+		F7AC87CF1A220DC90015568A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AC87CE1A220DC90015568A /* AppDelegate.swift */; };
+		F7AC87D11A220DC90015568A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AC87D01A220DC90015568A /* ViewController.swift */; };
+		F7AC87D41A220DC90015568A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7AC87D21A220DC90015568A /* Main.storyboard */; };
+		F7AC87D61A220DC90015568A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7AC87D51A220DC90015568A /* Images.xcassets */; };
+		F7AC87D91A220DC90015568A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7AC87D71A220DC90015568A /* LaunchScreen.xib */; };
+		F7AC87E51A220DC90015568A /* KanjiJishoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AC87E41A220DC90015568A /* KanjiJishoTests.swift */; };
+		F7AC87EF1A220EE80015568A /* xmlParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AC87EE1A220EE80015568A /* xmlParser.swift */; };
+		F7AC87F11A220F080015568A /* TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AC87F01A220F080015568A /* TVC.swift */; };
+		F7AC87F31A220F240015568A /* DVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AC87F21A220F240015568A /* DVC.swift */; };
+		F7AC87F51A220FE00015568A /* hiraganaeu.xml in Resources */ = {isa = PBXBuildFile; fileRef = F7AC87F41A220FE00015568A /* hiraganaeu.xml */; };
+		F7AC87F71A220FEF0015568A /* 100_6173.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F7AC87F61A220FEF0015568A /* 100_6173.JPG */; };
+		F7AC87F91A2213050015568A /* patrat_butoane.png in Resources */ = {isa = PBXBuildFile; fileRef = F7AC87F81A2213050015568A /* patrat_butoane.png */; };
+		F7AC96FD1A305F8400666D5C /* kanjiXMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AC96FC1A305F8400666D5C /* kanjiXMLParser.swift */; };
+		F7AC96FF1A3062E100666D5C /* kanjiXML.xml in Resources */ = {isa = PBXBuildFile; fileRef = F7AC96FE1A3062E100666D5C /* kanjiXML.xml */; };
+		F7AD5F451A3091A900F756C9 /* CustomSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD5F441A3091A900F756C9 /* CustomSearchVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7AC87DF1A220DC90015568A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7AC87C11A220DC90015568A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7AC87C81A220DC90015568A;
+			remoteInfo = KanjiJisho;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F70ED1671A347F8200E2AB69 /* new1.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = new1.xml; sourceTree = "<group>"; };
+		F7AC87C91A220DC90015568A /* KanjiJisho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KanjiJisho.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7AC87CD1A220DC90015568A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7AC87CE1A220DC90015568A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7AC87D01A220DC90015568A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7AC87D31A220DC90015568A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7AC87D51A220DC90015568A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F7AC87D81A220DC90015568A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F7AC87DE1A220DC90015568A /* KanjiJishoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KanjiJishoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7AC87E31A220DC90015568A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7AC87E41A220DC90015568A /* KanjiJishoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiJishoTests.swift; sourceTree = "<group>"; };
+		F7AC87EE1A220EE80015568A /* xmlParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = xmlParser.swift; sourceTree = "<group>"; };
+		F7AC87F01A220F080015568A /* TVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVC.swift; sourceTree = "<group>"; };
+		F7AC87F21A220F240015568A /* DVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DVC.swift; sourceTree = "<group>"; };
+		F7AC87F41A220FE00015568A /* hiraganaeu.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hiraganaeu.xml; sourceTree = "<group>"; };
+		F7AC87F61A220FEF0015568A /* 100_6173.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 100_6173.JPG; sourceTree = "<group>"; };
+		F7AC87F81A2213050015568A /* patrat_butoane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = patrat_butoane.png; sourceTree = "<group>"; };
+		F7AC96FC1A305F8400666D5C /* kanjiXMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kanjiXMLParser.swift; sourceTree = "<group>"; };
+		F7AC96FE1A3062E100666D5C /* kanjiXML.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = kanjiXML.xml; sourceTree = "<group>"; };
+		F7AD5F441A3091A900F756C9 /* CustomSearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSearchVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7AC87C61A220DC90015568A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AC87DB1A220DC90015568A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7AC87C01A220DC90015568A = {
+			isa = PBXGroup;
+			children = (
+				F7AC87CB1A220DC90015568A /* KanjiJisho */,
+				F7AC87E11A220DC90015568A /* KanjiJishoTests */,
+				F7AC87CA1A220DC90015568A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7AC87CA1A220DC90015568A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7AC87C91A220DC90015568A /* KanjiJisho.app */,
+				F7AC87DE1A220DC90015568A /* KanjiJishoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7AC87CB1A220DC90015568A /* KanjiJisho */ = {
+			isa = PBXGroup;
+			children = (
+				F7AC87CE1A220DC90015568A /* AppDelegate.swift */,
+				F7AC87D01A220DC90015568A /* ViewController.swift */,
+				F7AC87D21A220DC90015568A /* Main.storyboard */,
+				F7AD5F441A3091A900F756C9 /* CustomSearchVC.swift */,
+				F7AC96FC1A305F8400666D5C /* kanjiXMLParser.swift */,
+				F7AC87F21A220F240015568A /* DVC.swift */,
+				F7AC87F01A220F080015568A /* TVC.swift */,
+				F7AC87EE1A220EE80015568A /* xmlParser.swift */,
+				F7AC87D51A220DC90015568A /* Images.xcassets */,
+				F7AC87D71A220DC90015568A /* LaunchScreen.xib */,
+				F7AC87CC1A220DC90015568A /* Supporting Files */,
+			);
+			path = KanjiJisho;
+			sourceTree = "<group>";
+		};
+		F7AC87CC1A220DC90015568A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F70ED1671A347F8200E2AB69 /* new1.xml */,
+				F7AC96FE1A3062E100666D5C /* kanjiXML.xml */,
+				F7AC87F81A2213050015568A /* patrat_butoane.png */,
+				F7AC87F61A220FEF0015568A /* 100_6173.JPG */,
+				F7AC87F41A220FE00015568A /* hiraganaeu.xml */,
+				F7AC87CD1A220DC90015568A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7AC87E11A220DC90015568A /* KanjiJishoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7AC87E41A220DC90015568A /* KanjiJishoTests.swift */,
+				F7AC87E21A220DC90015568A /* Supporting Files */,
+			);
+			path = KanjiJishoTests;
+			sourceTree = "<group>";
+		};
+		F7AC87E21A220DC90015568A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7AC87E31A220DC90015568A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7AC87C81A220DC90015568A /* KanjiJisho */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7AC87E81A220DC90015568A /* Build configuration list for PBXNativeTarget "KanjiJisho" */;
+			buildPhases = (
+				F7AC87C51A220DC90015568A /* Sources */,
+				F7AC87C61A220DC90015568A /* Frameworks */,
+				F7AC87C71A220DC90015568A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KanjiJisho;
+			productName = KanjiJisho;
+			productReference = F7AC87C91A220DC90015568A /* KanjiJisho.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7AC87DD1A220DC90015568A /* KanjiJishoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7AC87EB1A220DC90015568A /* Build configuration list for PBXNativeTarget "KanjiJishoTests" */;
+			buildPhases = (
+				F7AC87DA1A220DC90015568A /* Sources */,
+				F7AC87DB1A220DC90015568A /* Frameworks */,
+				F7AC87DC1A220DC90015568A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7AC87E01A220DC90015568A /* PBXTargetDependency */,
+			);
+			name = KanjiJishoTests;
+			productName = KanjiJishoTests;
+			productReference = F7AC87DE1A220DC90015568A /* KanjiJishoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7AC87C11A220DC90015568A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = tt;
+				TargetAttributes = {
+					F7AC87C81A220DC90015568A = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					F7AC87DD1A220DC90015568A = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = F7AC87C81A220DC90015568A;
+					};
+				};
+			};
+			buildConfigurationList = F7AC87C41A220DC90015568A /* Build configuration list for PBXProject "KanjiJisho" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7AC87C01A220DC90015568A;
+			productRefGroup = F7AC87CA1A220DC90015568A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7AC87C81A220DC90015568A /* KanjiJisho */,
+				F7AC87DD1A220DC90015568A /* KanjiJishoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7AC87C71A220DC90015568A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AC87F91A2213050015568A /* patrat_butoane.png in Resources */,
+				F7AC87D41A220DC90015568A /* Main.storyboard in Resources */,
+				F70ED1681A347F8200E2AB69 /* new1.xml in Resources */,
+				F7AC96FF1A3062E100666D5C /* kanjiXML.xml in Resources */,
+				F7AC87D91A220DC90015568A /* LaunchScreen.xib in Resources */,
+				F7AC87F71A220FEF0015568A /* 100_6173.JPG in Resources */,
+				F7AC87F51A220FE00015568A /* hiraganaeu.xml in Resources */,
+				F7AC87D61A220DC90015568A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AC87DC1A220DC90015568A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7AC87C51A220DC90015568A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AC96FD1A305F8400666D5C /* kanjiXMLParser.swift in Sources */,
+				F7AC87D11A220DC90015568A /* ViewController.swift in Sources */,
+				F7AC87F11A220F080015568A /* TVC.swift in Sources */,
+				F7AC87CF1A220DC90015568A /* AppDelegate.swift in Sources */,
+				F7AC87EF1A220EE80015568A /* xmlParser.swift in Sources */,
+				F7AC87F31A220F240015568A /* DVC.swift in Sources */,
+				F7AD5F451A3091A900F756C9 /* CustomSearchVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AC87DA1A220DC90015568A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AC87E51A220DC90015568A /* KanjiJishoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7AC87E01A220DC90015568A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7AC87C81A220DC90015568A /* KanjiJisho */;
+			targetProxy = F7AC87DF1A220DC90015568A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7AC87D21A220DC90015568A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7AC87D31A220DC90015568A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7AC87D71A220DC90015568A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7AC87D81A220DC90015568A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7AC87E61A220DC90015568A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7AC87E71A220DC90015568A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7AC87E91A220DC90015568A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KanjiJisho/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7AC87EA1A220DC90015568A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KanjiJisho/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F7AC87EC1A220DC90015568A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KanjiJishoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KanjiJisho.app/KanjiJisho";
+			};
+			name = Debug;
+		};
+		F7AC87ED1A220DC90015568A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KanjiJishoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KanjiJisho.app/KanjiJisho";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7AC87C41A220DC90015568A /* Build configuration list for PBXProject "KanjiJisho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7AC87E61A220DC90015568A /* Debug */,
+				F7AC87E71A220DC90015568A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7AC87E81A220DC90015568A /* Build configuration list for PBXNativeTarget "KanjiJisho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7AC87E91A220DC90015568A /* Debug */,
+				F7AC87EA1A220DC90015568A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7AC87EB1A220DC90015568A /* Build configuration list for PBXNativeTarget "KanjiJishoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7AC87EC1A220DC90015568A /* Debug */,
+				F7AC87ED1A220DC90015568A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7AC87C11A220DC90015568A /* Project object */;
+}
