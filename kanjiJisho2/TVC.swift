@@ -190,7 +190,7 @@ class TVC: UITableViewController, UITableViewDelegate, UITableViewDataSource {
                         {gasit = true}
                     }
                     if gasit
-                    {
+                     {
                         resultats.addObject(dataArray.objectAtIndex(i))
                     }
                 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F716337F1A65846A00FDDB19 /* 100_6173.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F716337E1A65846A00FDDB19 /* 100_6173.JPG */; };
 		F72D00141A62E6100024F53A /* kanjiXML-2.xml in Resources */ = {isa = PBXBuildFile; fileRef = F72D00131A62E6100024F53A /* kanjiXML-2.xml */; };
 		F7A2E8D01A52BE0600E214F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A2E8CF1A52BE0600E214F4 /* AppDelegate.swift */; };
 		F7A2E8D31A52BE0600E214F4 /* kanjiJisho2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F7A2E8D11A52BE0600E214F4 /* kanjiJisho2.xcdatamodeld */; };
@@ -15,7 +16,6 @@
 		F7A2E8DA1A52BE0600E214F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A2E8D91A52BE0600E214F4 /* Images.xcassets */; };
 		F7A2E8DD1A52BE0600E214F4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7A2E8DB1A52BE0600E214F4 /* LaunchScreen.xib */; };
 		F7A2E8E91A52BE0600E214F4 /* kanjiJisho2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A2E8E81A52BE0600E214F4 /* kanjiJisho2Tests.swift */; };
-		F7A2E8FD1A52BE4E00E214F4 /* 100_6173.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F7A2E8FC1A52BE4E00E214F4 /* 100_6173.JPG */; };
 		F7A2E8FF1A52C08400E214F4 /* kanjiXMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A2E8FE1A52C08400E214F4 /* kanjiXMLParser.swift */; };
 		F7A2E9011A52C6E200E214F4 /* xmlParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A2E9001A52C6E200E214F4 /* xmlParser.swift */; };
 		F7A2E9051A52C78600E214F4 /* TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A2E9041A52C78600E214F4 /* TVC.swift */; };
@@ -39,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F716337E1A65846A00FDDB19 /* 100_6173.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 100_6173.JPG; sourceTree = "<group>"; };
 		F72D00131A62E6100024F53A /* kanjiXML-2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "kanjiXML-2.xml"; sourceTree = "<group>"; };
 		F7A2E8CA1A52BE0600E214F4 /* kanjiJisho2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kanjiJisho2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7A2E8CE1A52BE0600E214F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,7 +52,6 @@
 		F7A2E8E21A52BE0600E214F4 /* kanjiJisho2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kanjiJisho2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7A2E8E71A52BE0600E214F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7A2E8E81A52BE0600E214F4 /* kanjiJisho2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kanjiJisho2Tests.swift; sourceTree = "<group>"; };
-		F7A2E8FC1A52BE4E00E214F4 /* 100_6173.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 100_6173.JPG; sourceTree = "<group>"; };
 		F7A2E8FE1A52C08400E214F4 /* kanjiXMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kanjiXMLParser.swift; sourceTree = "<group>"; };
 		F7A2E9001A52C6E200E214F4 /* xmlParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = xmlParser.swift; sourceTree = "<group>"; };
 		F7A2E9041A52C78600E214F4 /* TVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVC.swift; sourceTree = "<group>"; };
@@ -126,7 +126,6 @@
 				F72D00131A62E6100024F53A /* kanjiXML-2.xml */,
 				F7C573851A5C31FF007ADCB5 /* pozefundaldapm */,
 				F7AB80801A530CAB0088D921 /* hiraganaeu.xml */,
-				F7A2E8FC1A52BE4E00E214F4 /* 100_6173.JPG */,
 				F7A2E8CE1A52BE0600E214F4 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -152,6 +151,7 @@
 		F7C573851A5C31FF007ADCB5 /* pozefundaldapm */ = {
 			isa = PBXGroup;
 			children = (
+				F716337E1A65846A00FDDB19 /* 100_6173.JPG */,
 				F7C573871A5C31FF007ADCB5 /* 100_6187.JPG */,
 				F7C573881A5C31FF007ADCB5 /* 100_6191.JPG */,
 				F7C573891A5C31FF007ADCB5 /* 100_6203.JPG */,
@@ -242,9 +242,9 @@
 			files = (
 				F72D00141A62E6100024F53A /* kanjiXML-2.xml in Resources */,
 				F7C5738E1A5C31FF007ADCB5 /* 100_6191.JPG in Resources */,
+				F716337F1A65846A00FDDB19 /* 100_6173.JPG in Resources */,
 				F7C5738F1A5C31FF007ADCB5 /* 100_6203.JPG in Resources */,
 				F7A2E8D81A52BE0600E214F4 /* Main.storyboard in Resources */,
-				F7A2E8FD1A52BE4E00E214F4 /* 100_6173.JPG in Resources */,
 				F7C5738D1A5C31FF007ADCB5 /* 100_6187.JPG in Resources */,
 				F7AB80811A530CAB0088D921 /* hiraganaeu.xml in Resources */,
 				F7A2E8DD1A52BE0600E214F4 /* LaunchScreen.xib in Resources */,

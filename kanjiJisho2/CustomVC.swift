@@ -16,7 +16,7 @@ class CustomVC: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var strokesTF: UITextField!
     @IBOutlet weak var img: UIImageView!
     @IBOutlet weak var scr: UIScrollView!
-    
+     
     
     override func viewDidLoad() {
         super.viewDidLoad()

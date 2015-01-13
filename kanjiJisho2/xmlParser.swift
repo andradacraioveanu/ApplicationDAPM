@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 class xmlParser: NSObject, NSXMLParserDelegate {
-   
+    
 //parser pour le fichier xml avec hiragana
     
     var parser = NSXMLParser()

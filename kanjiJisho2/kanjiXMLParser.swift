@@ -7,7 +7,7 @@
 //
 import Foundation
 import UIKit
-
+ 
 class kanjiXMLParser: NSObject, NSXMLParserDelegate {
     
 //parser pour le fichier xml avec kanji
