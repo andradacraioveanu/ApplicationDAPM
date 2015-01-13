@@ -7,7 +7,7 @@
 //
 import Foundation 
 import UIKit
-
+ 
 class ViewController: UIViewController, UITextFieldDelegate {
 //view pour la recherche directe
     

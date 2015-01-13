@@ -181,7 +181,7 @@ class TVC: UITableViewController, UITableViewDelegate, UITableViewDataSource {
         }
         else{
             if(searchedRadicals.count >= 1)
-            {
+            { 
                 for i in 0...dataArray.count-1
                 { var gasit = false
                     for j in 0...searchedRadicals.count - 1
